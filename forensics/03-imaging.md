@@ -52,9 +52,11 @@ Ubuntu Linux VM дээр 50 MiB хэмжээтэй туршилтын файл �
 Энэ туршилт нь файлын түвшний хуулбарлалт бөгөөд бодит дискний forensic acquisition-ийн бүх ажиллагааг орлохгүй.
 
 ## 7. Нотлох баримт
-
-- Screenshot 1: `dd` командаар файл үүсгэсэн үр дүн
-- Screenshot 2: Эх болон хуулбарын SHA256 hash
-- Screenshot 3: `evidence.raw: OK` болон `IMAGE VERIFIED: IDENTICAL` баталгаажуулалт
-
-**Төлөв:** Completed — Hash verified.
+### Screenshot 1. Disk imaging болон SHA256 баталгаажуулалт
+<img width="902" height="381" alt="Screenshot 2026-11-04 174353" src="https://github.com/user-attachments/assets/1feca480-b94d-4364-8afb-123b686d540d" />
+**Тайлбар:** Ubuntu Linux дээр evidence.raw файлыг
+үүсгэж, evidence-copy.raw хуулбар авсан.
+Хоёр файлын SHA256 hash ижил гарсан.
+Мөн evidence.raw: OK болон
+IMAGE VERIFIED: IDENTICAL үр дүнгээр
+бүрэн бүтэн байдал баталгаажсан.
